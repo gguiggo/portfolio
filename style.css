@@ -1,0 +1,83 @@
+body {
+    font-weight: 400;
+    font-family:Helvetica, sans-serif; 
+    font-size: 15px;
+    line-height: 2.2em;
+    color: rgb(85, 80, 85);
+    margin: 0;
+   
+}
+
+header{
+    background-color: orangered;
+}
+
+section, footer{
+    margin: 40px;
+}
+
+h1{
+    font-size: 63px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+p{
+    
+    margin: 40px;
+}
+
+nav li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li{
+    float: left;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav{
+    font-size: 20px;
+    letter-spacing: 4px;
+    height: 50px;
+    background-color: rgb(58, 45, 45);
+    padding-right: 40px;
+}
+
+.carousel-item img{
+    height: 600px; /* Ajuste para a altura desejada */
+    overflow: hidden; /* Garante que imagens maiores se ajustem à altura fixa */
+
+}  
+
+.carousel-caption h5{
+    font-size: 80px;
+    color: white;
+    text-shadow: #303030;
+}
+
+.card img {
+    height: 300px; /* Ajuste para a altura desejada */
+    overflow: hidden; /* Garante que imagens maiores se ajustem à altura fixa */
+
+}
+
+.card-title h5{
+ text-align: center;
+ color:blue
+}
+
